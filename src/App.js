@@ -10,16 +10,14 @@ function App() {
   };
   return (
     <div className="App">
+    <div className="mainContainer">
       <h1>Popup Modal</h1>
       <button onClick={openModal}>Test Modal</button>
       {showModal ? <Modal setShowModal={setShowModal} /> : null}
     </div>
+    </div>
   );
-  // return (
-  //   <div className="App">
 
-  //   </div>
-  // );
 }
 
 export default App;
